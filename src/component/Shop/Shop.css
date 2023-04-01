@@ -1,6 +1,6 @@
 .shop-container{
     display: grid;
-    grid-template-columns: 4fr, 1fr;
+    grid-template-columns: 3fr 1fr;
 }
 .products-container{
     margin: 50px;
@@ -8,4 +8,13 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
 
+}
+
+@media screen and (max-width: 576) {
+    /* .shop-container{
+        grid-template-rows: auto;
+    }
+    .products-container{
+        grid-template-columns: repeat(1, 1fr);
+    } */
 }
